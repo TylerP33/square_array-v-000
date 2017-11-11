@@ -1,6 +1,8 @@
-
 def square_array(array)
-  array.each do |x|
-  y<<(x**2)
-  end
+array.collect {|x| x**2}
+end
+
+
+def square_array(numbers)
+numbers.each {|x| x ** 2}
 end
