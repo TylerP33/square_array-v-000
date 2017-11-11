@@ -1,4 +1,4 @@
 def square_array(array)
   array.each {|x| array << x ** 2}
-  binder.pry
+  binding.pry
 end
