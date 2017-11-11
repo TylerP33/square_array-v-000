@@ -1,3 +1,3 @@
 def square_array(numbers)
-numbers.each.collect {|x| x ** 2}
+numbers.each.map {|x| x ** 2}
 end
